@@ -1,0 +1,9 @@
+__main__ :INFO: 2023-11-02 05:11:45,855: Created Employee: John Smith - John.Smith@email.com
+__main__ :INFO: 2023-11-02 05:11:45,855: Created Employee: Corey Schafer - Corey.Schafer@email.com
+__main__ :INFO: 2023-11-02 05:11:45,855: Created Employee: Jane Doe - Jane.Doe@email.com
+employee :INFO: 2023-11-02 05:11:59,238: Created Employee: John Smith - John.Smith@email.com
+employee :INFO: 2023-11-02 05:11:59,238: Created Employee: Corey Schafer - Corey.Schafer@email.com
+employee :INFO: 2023-11-02 05:11:59,238: Created Employee: Jane Doe - Jane.Doe@email.com
+employee :INFO: 2023-11-02 05:11:59,238: Created Employee: Sudha Murty - Sudha.Murty@email.com
+employee :INFO: 2023-11-02 05:11:59,238: Created Employee: Durjo Dutta - Durjo.Dutta@email.com
+employee :INFO: 2023-11-02 05:11:59,238: Created Employee: Dan brown - Dan.brown@email.com

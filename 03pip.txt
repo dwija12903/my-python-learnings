@@ -1,0 +1,44 @@
+pip is performance improvment package 
+use to install packages that are not download in standard distribution during installation.
+pip -Version
+pip install packagename
+pip uninstalll packagename 
+pip show packagename (for details)
+pip list (to see all the downloaded packages)
+
+pip install packagename -to install package
+pip list -to view all the packages downloaded
+pip list -o -to view all the outdated packages which are needed to be upgraded
+pip list -U packagename -to upgrade that package which is outdated
+
+virtualenve is a packagename used to seperate different python environmnets
+for example consider some projects may be using django,flask now if you upgrade the package then it 
+might break so website but if it might have issolated environment tha are only needed for that 
+environment so that might be helpful
+pip install virtualenv
+pip list
+now steps to make virtual environment:
+mkdir Directoryname
+cd!$ (goes to that Directory)
+virtualenv projectname
+source projectname/bin/activate (-now we are in new python environment)
+which python (gives python path we are in)
+which pip (tells the pip we are using)
+pip list (when we check again we see that new env is added)
+pip install packages (packages like numpy,pytz,psutil are needed to do downloaded in that new created 
+environment )
+pip freezee --local >> filename.txt(this allows to use gobal site packages with virtual python environment, takes only local dependencies)
+cat filename.txt 
+deactive (this command helps to get out of python enivronemnt, it also removes from pip list)
+rm -rf projectname/
+
+virtual -p /usr/bin/python 3.1 envname (creates new environment)
+source envname/bin/activate (actives the environment)
+which python
+which pip
+python --version
+ls 
+pip install packages
+pip list
+deactive
+ls

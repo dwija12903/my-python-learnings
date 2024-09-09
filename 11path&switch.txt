@@ -1,0 +1,33 @@
+-----------What is in this text document--------
+to find what which python interpreted we are usung and where it is loacted onto the machine and also we 
+will see how to switch b/w diffrent python verions and environments and also how to troubleshot imports 
+if not working properly
+
+python.exe file executes the python files
+after setting python file location into the environment variable we can acces it any file loaction 
+into cmd
+
+pip allows us to install packages, to download packages using pip we need to go into scripts directory 
+as it contains pip.exe, again after setting scripts directory onto the environment variable we can acces
+it from user file location
+
+sys module is a module in python which allows us to tell excaltly which python verision we are using,for that
+import sys
+sys.executable #tells directory of python
+echo %path% #tells whole path of python 
+
+of we have installed diffrent versions of python and want to change the version then we need to directly 
+change from environment variable by moving thata version onto the top
+
+pip show packagename- tells us the loaction  and details of that package 
+when we have installed an package and its showing error then check weather we have installed it onto the 
+proper directory
+
+SUBLIME text
+import sys
+sys.excecutable
+sys.version
+
+to use diffrent version,virtual env we need to use build system to change yhings 
+tools->build system->build system->gives json file 
+

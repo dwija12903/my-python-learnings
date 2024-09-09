@@ -1,0 +1,24 @@
+anaconda is a data science platfrom that comes with python distibution manager called conda 
+a way to manage environments and with other lot of libraries and packages preinstalled 
+related to data scienece so it comes with sci pi jupiter notebooks
+
+we can use normal python also if we are comfortable but lot of people in data science community 
+who might not be full time developers uses anaconda    
+as it simplifies a lot of problems that begineers run into 
+
+anaconda comes with a own package called conda useful beacuse we can use it to install non python 
+packages and dependencies 
+conda runs same as pip
+conda list (shows list of packages installed)
+we can use pip instead of pip
+
+how to create virtual env using conda?
+conda create --name envname flask sqlalchemy (created env)
+source activate envname
+pip list
+which python
+source deactive
+
+conda create --name envname python=2.6 flask sqlalchemy (created with python version)
+conda env list (gives env list)
+conda remove --name envname --all (delete the envname)
